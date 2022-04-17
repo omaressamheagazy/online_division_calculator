@@ -1,0 +1,48 @@
+* {
+    margin: 8px;
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+form {
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+th {
+    background-color: lightgray;
+}
+.Number_Of_Bits {
+    width: 4%;
+}
+input {
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.568);
+    border-radius: 4px;
+}
+
+.button {
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border: none;
+    padding: 3px;
+    border: 1px solid black;
+}
+
+.button:hover {
+  background-color: rgb(202, 202, 202); 
+}
+
+
+.last_row {
+    border-bottom: 2px solid red;
+}
+
+ul {
+    border: 1px solid red;
+    height: fit-content;
+}
